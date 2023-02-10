@@ -15,10 +15,12 @@ header{
 .container_practicas div{
     border: 3px solid gainsboro;
     border-radius: 10px;
-    width: 30%; 
+    width: 31%; 
     margin: 1%;
     float: left;
 }
+
+
 
 div.columna:hover{
     background-color: rgb(206, 203, 203);
@@ -28,7 +30,6 @@ div h4{
     text-align: center;
     background-color: white;
     border-radius: 10px;
-    /* fopadding-bont-size: 20px; */
 }
 
 div ul{
@@ -37,6 +38,19 @@ div ul{
 
 a{
     font-size: 18px;
+}
+
+li:hover{
+    transform: scale(105%);
+}
+
+p.subtitulo{
+    text-align: center;
+    background-color: white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
 }
 
 a:link{
@@ -70,4 +84,37 @@ footer{
 span.cabecera{
     position: relative;
     margin-left: 89%;
+}
+
+img.vcf{
+    width: 67px;
+    float: right;
+    border-radius: 100px;
+}
+
+img.visual{
+    width: 110px;
+    float: right;
+    border-radius: 100px;
+}
+
+img.steve{
+    width: 90px;
+    float: right;
+    border-radius: 100px;
+}
+
+img.mundial{
+    width: 80px;
+    float: right;
+    border-radius: 100px;
+}
+
+h2{
+    text-align: center;
+}
+
+div.columnafinal{
+    margin-left: 34.3%;
+    width: 31.1%;
 }
